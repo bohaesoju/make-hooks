@@ -1,9 +1,7 @@
-import { MyReact } from './MyReact';
+import { CounterAndMeow } from './components/CounterAndMeow';
 
-const { render } = MyReact();
-
-const App = () => `
+export const App = () => `
   <div>
-    ${Count}
+    ${CounterAndMeow()}
   </div>
 `;
